@@ -4,11 +4,18 @@
 
 It can be used directly in browser by loading the file in a `script` tag or can be used in `browserify` and `webpack` environments too.
 
+### Installation
+1. `npm install appbase-client`
+2. Or `bower install appbase-client`
+3. Or download [zip](https://github.com/brijeshb42/appbase-client/releases/latest).
+
+### Usage
 * In browser, it is available in the `window` global with the name `AppBase`.
 * In `browserify` or `webpack`, it can be used as:
     * `var AppBase = require('appbase-client')`
     * in ES6, `import AppBase from 'appbase-client'`
 * Add the css style in your html `<link href="appbase-client/lib/index.css" rel="stylesheet" type="text/css">`.
+
 ### User API
 
 #### `checkSession(errorCallback, showModal, options)`
