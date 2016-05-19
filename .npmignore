@@ -1,0 +1,9 @@
+lib/index.html
+webpack.config.js
+node_modules
+bower_components
+src
+.babelrc
+.gitignore
+bower.json
+webpack.config.js

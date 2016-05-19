@@ -1,0 +1,31 @@
+{
+  "name": "appbase-client",
+  "description": "*appbase-client* exposes a set of basic functions that can help in rapid frontend development @ Scroll.in",
+  "main": "lib/index.js",
+  "authors": [
+    "Brijesh Bittu <brijeshb42@gmail.com> (http://bitwiser.in/)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "appbase"
+  ],
+  "homepage": "https://github.com/brijeshb42/appbase-client",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    ".babelrc",
+    ".gitignore",
+    ".npmignore",
+    "webpack.config.js",
+    "lib/index.html"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "appbase-client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --port 8080 --devtool eval --content-base lib/ --progress --colors --hot",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack"
+  },
+  "keywords": [],
+  "author": "Brijesh Bittu <brijeshb42@gmail.com> (http://bitwiser.in/)",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.merge": "^4.4.0",
+    "medium-style-confirm": "^0.4.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
