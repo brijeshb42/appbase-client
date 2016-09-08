@@ -19,7 +19,7 @@ export const readCookie = (name) => {
   return null;
 }
 
-export const clearAllCookie = (reload=false) => {
+export const clearAllCookies = (reload=false) => {
   document.cookie = "";
   if (reload) {
     window.location.reload();

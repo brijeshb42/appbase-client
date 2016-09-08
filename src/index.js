@@ -10,7 +10,7 @@ export {
 export {
   createCookie,
   readCookie,
-  clearAllCookie,
+  clearAllCookies,
   clearCookie
 } from './cookie';
 

@@ -25,22 +25,22 @@ It can be used directly in browser by loading the file in a `script` tag or can 
 * This function should be the first to get called before you proceed with your own functions.
 
 #### `isAdmin()`
-* Checks session and returns `true` is the current user is an *admin*, otherwise returns false.
+* Checks session and returns `true` if the current user is an *admin*, otherwise returns false.
 
 
 #### `getUser()`
-* Returns current user's information as an object that is set be server in `userinfo` cookie. Returns `null` if cookie is invalid.
+* Returns current user's information as an object that is set by server in `userinfo` cookie. Returns `null` if cookie is invalid.
 
 #### `sidToUidGroups()`
-* Returns and object like `{uid: 1, groups: ['admin', 'editor']}` from the session cookie. Returns `null` if invalid session.
+* Returns an object like `{uid: 1, groups: ['admin', 'editor']}` from the session cookie. Returns `null` if invalid session.
 
 ### Network API
 
 #### `setBaseURL(base)`
-* Sets the base url for api calls to `base`. For ex: if a resource exists at `http://api.example.com/1.0/user/1`, you can set the base url to `http://api.example.com/1.0` and then call `Fetch` methods using the endpoints only.
+Sets the base url for api calls to `base`. For ex: if a resource exists at `http://api.example.com/1.0/user/1`, you can set the base url to `http://api.example.com/1.0` and then call `Fetch` methods using the endpoints only.
 
 #### `setCredentials(value)`
-* This is used by the ajax requests to decide whether to send current cookies or not. Valid values are `same-origin` and `include`. If not set, `same-origin` is used.
+* This is used by ajax requests to decide whether to send current cookies or not. Valid values are `same-origin` and `include`. If not set, `same-origin` is used.
 * Set to `same-origin` if your client lives on the same domain as the api server.
 * Set to `include` if client and server domains are different.
 
